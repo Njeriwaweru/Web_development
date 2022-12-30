@@ -24,7 +24,7 @@ h1{
 }
 
 .button:hover {
-    background-color: lightblue;
+    background-color: blue;
     color: white;
 }
 
