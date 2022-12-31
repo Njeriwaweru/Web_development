@@ -1,8 +1,67 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <body>
-            <h1>fhbdugoilewhgbv</h1>
-        </body>
+        <title>Patient information</title>
+        <link rel="stylesheet" href="style.css">
     </head>
+    <body>
+        <h1>General information</h1>
+
+        <div class="parent">
+            <form class="child"> 
+                <label for="id"><b>ID</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="number" id="id" name="id"><br><br>
+
+                <label for="fname"><b>First Name</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="text" id="fname" name="fname"><br><br>
+
+                <label for="lname"><b>Last Name</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="text" id="lname" name="lname"><br><br>
+
+                <label for="gender"><b>Gender</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <select id="gender" name="gender">
+                    <option value="female">Female</option>
+                    <option value="male">Male</option>
+                    <option value="other">Other</option>
+                </select><br><br>
+
+                <label for="dob"><b>Date of Birth</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="date" id="dob" name="dob"><br><br>
+
+                <label for="pstate"><b>Patient State</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <select id="pstate" name="pstate">
+                    <option value="in">Inpatient</option>
+                    <option value="out">Outpatient</option>
+                </select><br><br>
+
+                <label for="mstate"><b>Marriage State</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <select id="pstate" name="pstate">
+                    <option value="married">Married</option>
+                    <option value="single">Single</option>
+                    <option value="divorced">Divorced</option>
+                </select><br><br>
+
+                <label for="phone"><b>Phone Number</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="tel" id="phone" name="phone"><br><br>
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="submit" class="button">Delete profile</button>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="submit" class="button">Save</button>
+            </form>
+
+            <form class="child">
+                <label for="lrum"><b>Last Recently Used Medicine</b></label><br><br>
+                <label for="num">1</label>
+                <input type="text" id="num" name="num"><br><br>
+                <label for="num">2</label>
+                <input type="text" id="num" name="num"><br><br>
+                <label for="num">3</label>
+                <input type="text" id="num" name="num"><br><br>
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class="button" onclick="window.open('index.html');" target="_self" style="font-size: 20px;">Home</button><br><br>
+                <button class="button" onclick="window.open('searching.html');">Search</button>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class="button">New Patient</button>
+
+            </form>
+        </div>
+    </body>
 </html>

@@ -63,3 +63,13 @@ h1{
     float: left;
     width: 50%;
 }
+
+.form {
+    text-align: center;
+}
+
+/* to style table in pharmacists page*/
+table, th, td {
+    border:1px solid black;
+  }
+
