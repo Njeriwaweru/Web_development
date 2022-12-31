@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Emloyees</title>
+    <link rel="stylesheet" href="../css/style.css">
+    </head>
+    <body>
+        <h1>Emloyees Information</h1>
+
+        <div class="row contactSpotrow">
+          <div class="col-md-8">
+            <div class="card formItem">
+              <div class="card-body text-left">
+
+            <form method="$_post" action="../php/insertdata.php">
+                <label for="fname">Fullname:</label><br>
+                <input type="text" id="fname" name="fname"><br><br>
+                <label for="lname">EmployeeNo:</label><br>
+                <input type="number" min="1" max="100" id="lname" name="lname"><br><br>
+
+                <input type="radio" id="html" name="fav_language" value="Male">
+                <label for="html">Male</label><br>
+                <input type="radio" id="css" name="fav_language" value="Female">
+                <label for="css">Female</label><br>
+                <input type="radio" id="css" name="fav_language" value="Other">
+                <label for="css">Other</label><br><br>
+            </form>
+
+                <h2>Select County</h2>
+
+                <form method="$_post" action="../php/insertdata.php">
+                    <label for="cars">Choose a county:</label>
+                    <select name="county" id="county">
+                    <option value="Nairobi">Nairobi</option>
+                    <option value="Kiambu">Kiambu</option>
+                    <option value="Mombasa">Mombasa</option>
+                    <option value="Nyeri">Nyeri</option>
+                    <option value="Muranga">Muranga</option>
+                    <option value="Nyandarua">Nyandarua</option>
+                    <option value="Kwale">Kwale</option>
+                    <option value="Kilifi">Kilifi</option>
+                    <option value="Lamu">Lamu</option>
+                    <option value="Wajir">Wajir</option>
+                    </select>
+                    <br><br>
+                    <a href="index.html" class="nav-link">
+                        <button class="btn btn-lg btn-default lr-btn">
+                          <i class="fa fa-edit">Submit</i>  
+                        </button>
+                </form>
+                </div>
+                </div>
+                </div>
+                </div>
+
+          
+    </body>
+</html>

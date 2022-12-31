@@ -1,0 +1,63 @@
+.contactSpot{
+    padding: 80px 0px;
+}
+.contactSpot .border{
+    background: purple;
+    height: 4px !important;
+    width: 40px;
+    height: 3px;
+    margin: 10px 0px 70px 0px;
+}
+.contactSpotrow{
+    max-width: 90%;
+    padding-top: 70px;
+}
+.contactSpotrow .formItem .contactSpotrow .contactitem{
+    border-color: transparent;
+    -webkit-box-shadow: 0 0 10px 0px rgba(255, 255,255,0.9);
+    box-shadow: 0 0 10px 0px rgba(255, 255, 255, 0.9);
+    transition: 0.7s linear;
+}
+.contactSpotrow .contactitem h4{
+    color: #0c2e60;
+    font-weight: bold;
+    font-size: 16px !important;
+}
+.contactSpotrow .contactitem .row p{
+    padding-top: 3px;
+    color: gray;
+    font-size: 15px;
+    transition: 0,7s linear;
+}
+.contactSpotrow .contactitem .row .fas{
+    padding-top: 3px;
+    color: gray;
+    transition: 00.7s linear;
+}
+.contactSpotrow .contactitem .row p:hover{
+    color: purple;
+    cursor: pointer;
+}
+.contactSpotrow .contactitem .card-body h4 p{
+    padding: 70px 0px;
+}
+.contactitem p{
+    line-height: 20px;
+    text-align: left;
+}
+.form-btn{
+    background-color: purple;
+    color:#fff;
+    border-radius: 40px;
+}
+.form-btn:hover{
+    background-color: rebeccapurple;
+    color:#fff;
+    border-radius: 40px;
+}
+.contactSpot{
+    margin-top: -100px;
+}
+.contactSpotrow{
+    margin-top:-100px;
+}
